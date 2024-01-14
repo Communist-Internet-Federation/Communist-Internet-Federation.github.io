@@ -45,25 +45,25 @@ a:nth-child(5) {
 }
 nav .start-home, a:nth-child(1):hover~.animation {
 	width: 100px;
-	left: 0;
+	left: 100px;
 	background-color: #cc1479;
 }
-nav .start-about, a:nth-child(2):hover~.animation {
-	width: 110px;
+nav .start-sputnikos, a:nth-child(2):hover~.animation {
+	width: 100px;
 	left: 100px;
 	background-color: #800d4c;
 }
-nav .start-blog, a:nth-child(3):hover~.animation {
+nav .start-vostok, a:nth-child(3):hover~.animation {
 	width: 100px;
 	left: 200px;
 	background-color: #66093c;
 }
-nav .start-portefolio, a:nth-child(4):hover~.animation {
+nav .start-github, a:nth-child(4):hover~.animation {
 	width: 100px;
 	left: 300px;
 	background-color: #f81893;
 }
-nav .start-contact, a:nth-child(5):hover~.animation {
+nav .start-cif_dcd, a:nth-child(5):hover~.animation {
 	width: 100px;
 	left: 400px;
 	background-color: #800d4c;
@@ -90,4 +90,11 @@ p {
     text-align: center;
     color: #ffffff;
     font-size: 16px;
+}
+
+.Logo_Big {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
