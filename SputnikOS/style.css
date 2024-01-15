@@ -2,6 +2,10 @@
 	font-family: "Ubuntu";
 	src: url("../Ubuntu-Regular.ttf");
 }
+@font-face {
+	font-family: "Ubuntu-Bold";
+	src: url("../Ubuntu-Bold.ttf");
+}
 
 nav {
 	margin: 27px auto 0;
@@ -48,14 +52,14 @@ a:nth-child(4) {
 a:nth-child(5) {
 	width: 100pt;
 }
-nav .start-home, a:nth-child(1):hover~.animation {
+nav .start-home, a:nth-child(2):hover~.animation {
 	width: 100pt;
 	left: 100pt;
 	background-color: #cc1479;
 }
-nav .start-sputnikos, a:nth-child(2):hover~.animation {
+nav .start-sputnikos, a:nth-child(1):hover~.animation {
 	width: 100pt;
-	left: 100pt;
+	left: 0pt;
 	background-color: #800d4c;
 }
 nav .start-vostok, a:nth-child(3):hover~.animation {
@@ -85,9 +89,10 @@ h1 {
 	margin: 20pt 0 40pt;
 	text-align: center;
 	font-size: 32pt;
-	font-family: "Ubuntu";
+	font-family: "Ubuntu-Bold";
 	color: #fdffe3;
-	text-shadow: 3px 1px 1px #ac0b0b;
+	font-weight: bold;
+	text-shadow: 4px 2px 1px #ac0b0b;
 }
 
 p {
@@ -108,7 +113,7 @@ p {
 
 .sickles {
 	color: #ff0000;
-	font-size: 30pt;
+	font-size: 35pt;
 	font-family: "Ubuntu";
 	text-shadow:
 	  0 0 1pt #ffff0015,
